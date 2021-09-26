@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunppec/todo-list.git"
+  },
+  "author": "Varun B D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunppec/todo-list/issues"
+  },
+  "homepage": "https://github.com/varunppec/todo-list#readme",
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}

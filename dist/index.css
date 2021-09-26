@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+}
+
+#header {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 80px);
+
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.1);
+    min-width: 200px;
+    width: 250px;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#sidebarheader {
+    font-size: 22px;    
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 90%;
+}
+
+#project_container {
+    width: 90%;
+}
+
+#side-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#side-form > input {
+    width: 90%;
+}
+
+#new_project {
+    margin-top: 10px;
+    width: 90%;
+    min-height: 32px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+}
+
+#new_project:hover {
+    background-color: rgba(0,0,0,0.2);
+    
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.buttons > * {
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    min-width: 40%;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+#side-submit {
+    background-color: rgb(248, 147, 135);
+}
+
+#side-cancel {
+    background-color: rgb(98, 252, 175);
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3px;
+    width: 100%;
+    border-radius: 5px;
+    min-height: 32px;
+}
+
+#inbox {
+    width: 90%;
+}
+
+.projects:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.15);
+}
+
+.projects > .remove {
+    margin-left: auto;
+    
+}
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#div_header {
+    font-size: 22px;
+    font-weight: bold;
+    width: 90%;
+    float: left;
+    opacity: 80%;
+}
+
+#task_list {
+    width: 90%;
+    height: 90%;
+}
+
+#new_task {
+    margin: 5px;
+    min-height: 40px; 
+    border-radius: 5px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    opacity: 80%;
+}
+#new_task:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.tasks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    min-height: 40px; 
+    border-radius: 5px;
+}
+.tasks:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.nc {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox, .n, .d {
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;   
+    min-height: 100px;
+}
+
+#form > * {
+    min-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px;
+}
+#form > .task-buttons {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    border: none;
+}
+.task-buttons > * {
+    min-width: 18%;
+}
+
+#submit {
+    background-color: rgb(248, 147, 135);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#cancel {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(98, 252, 175);
+}
